@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="360" viewBox="0 0 1200 360"
+     role="img" aria-labelledby="title desc">
+  <title id="title">ProSkill — Agent Skill 工程化蓝图</title>
+  <desc id="desc">一张浅色蓝图，展示 ProSkill 如何把需求或已有 Skill 经过建模、验证和评估，转化为有证据支撑的 Skill。</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2FA89E"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="360" rx="26" fill="#F7F9FC"/>
+  <path d="M48 42H1152M48 318H1152" stroke="#DCE3EF" stroke-width="2"/>
+  <path d="M584 42V318" stroke="#DCE3EF" stroke-width="2" stroke-dasharray="4 10"/>
+  <circle cx="48" cy="42" r="5" fill="#C88A1A"/>
+  <circle cx="1152" cy="318" r="5" fill="#2FA89E"/>
+
+  <g id="title-block" transform="translate(64 56)">
+    <text x="0" y="0" fill="#5A72E8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+          font-size="18" font-weight="700" letter-spacing="2.5">技能工程 / V1</text>
+    <text x="0" y="70" fill="#1F2A44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+          font-size="58" font-weight="800">ProSkill</text>
+    <text x="0" y="122" fill="#1F2A44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+          font-size="28" font-weight="650">把想法变成</text>
+    <text x="0" y="157" fill="#1F2A44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+          font-size="28" font-weight="650">可验证的 Skill</text>
+    <text x="0" y="202" fill="#5F6F89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+          font-size="19">从需求出发，保留证据；从 V1 走向 V2。</text>
+
+    <g transform="translate(0 236)">
+      <rect x="0" y="0" width="92" height="38" rx="19" fill="#EAF0FF" stroke="#A9B9F7" stroke-width="2"/>
+      <text x="46" y="25" text-anchor="middle" fill="#405BC7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+            font-size="17" font-weight="700">设计</text>
+      <rect x="104" y="0" width="92" height="38" rx="19" fill="#E6F7F4" stroke="#8ED8CF" stroke-width="2"/>
+      <text x="150" y="25" text-anchor="middle" fill="#237E77" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+            font-size="17" font-weight="700">优化</text>
+      <rect x="208" y="0" width="92" height="38" rx="19" fill="#FFF4D8" stroke="#E5C46F" stroke-width="2"/>
+      <text x="254" y="25" text-anchor="middle" fill="#926514" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+            font-size="17" font-weight="700">验证</text>
+    </g>
+  </g>
+
+  <g id="workflow-board" transform="translate(620 56)">
+    <rect x="0" y="0" width="516" height="262" rx="20" fill="#FFFFFF" stroke="#D4DDEB" stroke-width="2"/>
+    <text x="28" y="34" fill="#5F6F89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+          font-size="16" font-weight="700" letter-spacing="1.8">工作流</text>
+
+    <g id="input-step" transform="translate(24 58)">
+      <rect width="108" height="94" rx="14" fill="#F0F3FF" stroke="#A9B9F7" stroke-width="2"/>
+      <text x="16" y="26" fill="#5A72E8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="16" font-weight="700">01</text>
+      <text x="16" y="54" fill="#1F2A44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+            font-size="19" font-weight="700">输入</text>
+      <text x="16" y="77" fill="#5F6F89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+            font-size="16">需求 / SOP</text>
+    </g>
+
+    <path d="M136 105H148" stroke="#2FA89E" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <g id="model-step" transform="translate(150 58)">
+      <rect width="108" height="94" rx="14" fill="#EDF9F7" stroke="#8ED8CF" stroke-width="2"/>
+      <text x="16" y="26" fill="#2FA89E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="16" font-weight="700">02</text>
+      <text x="16" y="54" fill="#1F2A44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+            font-size="19" font-weight="700">建模</text>
+      <text x="16" y="77" fill="#5F6F89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+            font-size="16">蓝图</text>
+    </g>
+
+    <path d="M262 105H274" stroke="#2FA89E" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <g id="check-step" transform="translate(276 58)">
+      <rect width="108" height="94" rx="14" fill="#FFF9E9" stroke="#E5C46F" stroke-width="2"/>
+      <text x="16" y="26" fill="#C88A1A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="16" font-weight="700">03</text>
+      <text x="16" y="54" fill="#1F2A44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+            font-size="19" font-weight="700">检查</text>
+      <text x="16" y="77" fill="#5F6F89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+            font-size="16">扫描 + 评估</text>
+    </g>
+
+    <path d="M388 105H400" stroke="#2FA89E" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <g id="output-step" transform="translate(402 58)">
+      <rect width="90" height="94" rx="14" fill="#F1F4F8" stroke="#B9C4D6" stroke-width="2"/>
+      <text x="16" y="26" fill="#66758D" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="16" font-weight="700">04</text>
+      <text x="16" y="54" fill="#1F2A44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+            font-size="19" font-weight="700">输出</text>
+      <text x="16" y="77" fill="#5F6F89" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="16">V1 / V2</text>
+    </g>
+
+    <path d="M78 152V187H162" fill="none" stroke="#A9B9F7" stroke-width="2" stroke-dasharray="5 6"/>
+    <path d="M330 152V187H354" fill="none" stroke="#8ED8CF" stroke-width="2" stroke-dasharray="5 6"/>
+    <rect x="24" y="193" width="222" height="42" rx="12" fill="#F0F3FF"/>
+    <text x="40" y="219" fill="#405BC7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+          font-size="16" font-weight="700">设计 · D0—D7</text>
+    <rect x="264" y="193" width="228" height="42" rx="12" fill="#EDF9F7"/>
+    <text x="280" y="219" fill="#237E77" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+          font-size="16" font-weight="700">优化 · O0—O7</text>
+  </g>
+</svg>
