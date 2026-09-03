@@ -1,0 +1,4 @@
+interface:
+  display_name: "ProSkill"
+  short_description: "Design and optimize production-ready skills"
+  default_prompt: "Use $proskill to design or optimize a production-ready skill from the provided requirements or existing skill."
